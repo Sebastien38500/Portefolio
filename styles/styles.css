@@ -17,7 +17,10 @@ main {
     overflow: hidden;
     position: relative;
 }
-
+.cont-skill .logo i {
+    font-size: 48px; /* ou une autre taille selon vos préférences */
+    color: #3D94CA; /* couleur bleue spécifique */
+}
 .slides {
     display: flex;
     transition: transform 0.5s ease;
@@ -25,7 +28,7 @@ main {
 
 .slide {
     min-width: 100%;
-    height: 300px;
+    height: 320px;
     background-size: cover;
     background-position: center;
 }
@@ -66,7 +69,7 @@ nav a:hover {
 
 }
 .pres p {
-    font-size: 0px;
+    font-size: 20px;
 }
 .image-profil {
     height: 200px;
@@ -245,7 +248,7 @@ footer ul li a:hover{
     display: inline-block;
     position: relative;
     overflow: hidden;
-    font-size: clamp(20px, 5vw, 120px);
+    font-size: clamp(20px, 3vw, 120px);
 }
 .span::after {
     content: "";
